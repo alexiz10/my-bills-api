@@ -1,1 +1,3 @@
 # MyBills API
+
+[![Build Status](https://travis-ci.com/alexiz10/my-bills-api.svg?branch=master)](https://travis-ci.com/alexiz10/my-bills-api) [![Coverage Status](https://coveralls.io/repos/github/alexiz10/my-bills-api/badge.svg?branch=master)](https://coveralls.io/github/alexiz10/my-bills-api?branch=master) <a href="https://codeclimate.com/github/alexiz10/my-bills-api/maintainability"><img src="https://api.codeclimate.com/v1/badges/e4f95ce370bbf1a3b56b/maintainability" /></a> <a href="https://codeclimate.com/github/alexiz10/my-bills-api/test_coverage"><img src="https://api.codeclimate.com/v1/badges/e4f95ce370bbf1a3b56b/test_coverage" /></a>
