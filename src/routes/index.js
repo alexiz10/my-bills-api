@@ -1,10 +1,17 @@
 import express from 'express';
-import { testVar } from '../settings';
+import { indexPage, billsPage } from '../controllers';
 
 const indexRouter = express.Router();
 
-indexRouter.get('/', (req, res) => {
-  res.status(200).json({ message: testVar });
-});
+// Home page
+indexRouter.get('/', indexPage);
+
+// Bills page
+indexRouter.get('/bills', billsPage);
+indexRouter.post('/bills/new');
+
+// Login page
+
+// Register page
 
 export default indexRouter;
